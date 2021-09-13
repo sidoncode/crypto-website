@@ -32,18 +32,18 @@ defined( 'GECKO_CLIENT_VERSION' ) OR exit( 'No direct script access allowed' );
 | EXAMPLE FOR ROOT
 | -------------------------------------------------------------------------
 |
-| $site['base_url']['production']  = 'https://my-domain.tld/';
+| $site['base_url']['production']  = 'https://sitecrt.herokuapp.com/';
 | $site['base_url']['development'] = 'http://localhost:8888/';
 |
 | -------------------------------------------------------------------------
 | EXAMPLE FOR SUBDIRECTORY
 | -------------------------------------------------------------------------
 |
-| $site['base_url']['production']  = 'https://my-domain.tld/gecko-client/';
+| $site['base_url']['production']  = 'https://sitecrt.herokuapp.com/gecko-client/';
 | $site['base_url']['development'] = 'http://localhost:8888/gecko-client/';
 |
 */
-$site['base_url']['production'] = '';
+$site['base_url']['production'] = 'https://sitecrt.herokuapp.com/';
 
 $site['base_url']['development'] = 'http://localhost:8888/gecko-client/';
 
